@@ -1125,7 +1125,9 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
               element.setAttribute('content', value);
           } else if (value.includes('<')) {
               element.innerHTML = value;
-          } else {
+          } else if (element.tagName === 'INPUT') {
+        element.setAttribute('placeholder', value);
+    } else {
               element.textContent = value;
           }          }
           });
