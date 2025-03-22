@@ -8,13 +8,13 @@
       "players": "Players",
       "pro": "Pro",
       "guide": "Guide"
-    },
-    "footer": {
-      "rights": "© All Rights Reserved",
-      "privacy": "Privacy",
-      "contact": "Contact",
-      "about": "About"
     }
+  },
+  "footer": {
+    "rights": "© All Rights Reserved",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "about": "About"
   },
   "search": {
     "placeholder": "Enter a team or player name..."
