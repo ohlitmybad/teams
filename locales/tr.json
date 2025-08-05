@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "description": "En İyi 7 Lig'den takım istatistiklerini karşılaştırın. Oyuncu ve takım profillerini inceleyin, Premier Lig, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Primeira Liga ve daha fazlasından veri görselleştirmek için radar karşılaştırmamızı ve diğer araçlarımızı deneyin.",
+    "title": "DataMB | Takımlar"
+  },
+  "common": {
+    "nav": {
+      "players": "Oyuncular",
+      "pro": "Pro",
+      "guide": "Rehber"
+    }
+  },
+  "footer": {
+    "rights": "© Tüm Hakları Saklıdır",
+    "privacy": "Gizlilik",
+    "contact": "İletişim",
+    "about": "Hakkında"
+  },
+  "search": {
+    "placeholder": "Takım veya oyuncu adı girin..."
+  },
+  "button": {
+    "plots": "GRAFİKLER",
+    "radars": "RADARLAR"
+  },
+  "positions": {
+    "goalkeeper": "Kaleci",
+    "centreback": "Stoper",
+    "fullback": "Bek",
+    "midfielder": "Orta saha",
+    "winger": "Kanat",
+    "striker": "Forvet"
+  }
+} 
