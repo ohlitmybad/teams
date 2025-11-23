@@ -23,23 +23,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <title data-i18n="meta.title">DataMB | Teams</title>
-  <script>
-  (function() {
-      var width = window.innerWidth;
-      var viewportMeta = document.querySelector('meta[name="viewport"]');
-      if (viewportMeta) {
-if (width < 770) {
-	      
-      var initialScale = width / 770;
-viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + initialScale);
-} else {
-            var fixedScale = 1;
-	viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + fixedScale);
-
-  }
-    } 
-})();
-</script>
+  
   <style>
  body {
      font-family: system-ui;
@@ -49,6 +33,12 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      color: var(--text-color);
      background-color: var(--background-color);
 }
+	  @media (hover: none) and (pointer: coarse) {
+    body {
+        width: 770px;
+    }
+}
+
  :root {
      --primary-color: #3498db;
      --secondary-color: #2ecc71;
@@ -267,11 +257,7 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      color: #e0e0e0;
 }
  
- @media screen and (max-width: 650px) {
-     .header .navigation {
-         display: none;
-    }
-}
+
  body.dark-mode #searchInput {
      background-color: #333;
      color: #e0e0e0;
@@ -1022,7 +1008,6 @@ gtag('config', 'G-PSBMXX80EF');
   </div>
   </div>
   
-  <br>
   <br>
   <div align="center">
     <!-- radarplotsearch -->
