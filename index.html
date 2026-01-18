@@ -788,11 +788,7 @@ body.dark-mode #autocompleteBoxmodal a, body.dark-mode #autocompleteBoxmodal2 a 
     window.ezstandalone = window.ezstandalone || {};
     ezstandalone.cmd = ezstandalone.cmd || [];
 </script>
-	<script>
-    ezstandalone.cmd.push(function () {
-        ezstandalone.showAds();
-    });
-</script>
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSBMXX80EF"></script>
 <script>
@@ -815,6 +811,11 @@ gtag('config', 'G-PSBMXX80EF');
   
 
 <body>
+		<script>
+    ezstandalone.cmd.push(function () {
+        ezstandalone.showAds();
+    });
+</script>
 	<div class="dark-mode-toggle" onclick="toggleDarkMode()">
   <div class="toggle-icon"></div>
 </div>
